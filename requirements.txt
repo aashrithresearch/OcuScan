@@ -1,0 +1,22 @@
+# Core ML
+fastai==2.7.14
+torch>=2.0.0
+torchvision>=0.15.0
+
+# API Server
+fastapi==0.110.0
+uvicorn[standard]==0.29.0
+
+# Image / Data
+pillow>=10.0.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+
+# WolframAlpha (optional knowledge integration)
+wolframalpha>=5.0.0
+
+# For returning JSON and handling uploads
+python-multipart>=0.0.6
+
+# If using pandas (for dashboards or metrics)
+pandas>=2.0.0
